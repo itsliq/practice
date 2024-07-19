@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message for Feowna</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            color: #ff69b4;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+        button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ff69b4;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <h1>Message for Feowna</h1>
+    <section>
+        <h2>About How I Love You</h2>
+        <p id="message1">Click the button to reveal the message.</p>
+        <button onclick="revealMessage1()">Reveal</button>
+    </section>
+    <section>
+        <h2>Always Here for You</h2>
+        <p id="message2">Click the button to reveal the message.</p>
+        <button onclick="revealMessage2()">Reveal</button>
+    </section>
+    <section>
+        <h2>Forever Thankful</h2>
+        <p id="message3">Click the button to reveal the message.</p>
+        <button onclick="revealMessage3()">Reveal</button>
+    </section>
+
+    <script>
+        function revealMessage1() {
+            document.getElementById('message1').innerText = 'Feowna, you are the love of my life. Every moment with you is a treasure, and I cherish every second we spend together. My love for you grows stronger every day.';
+        }
+
+        function revealMessage2() {
+            document.getElementById('message2').innerText = 'No matter what happens, know that I am always here for you. I am your biggest supporter, and I am rooting for you in every way possible. Your dreams are my dreams, and your happiness is my happiness.';
+        }
+
+        function revealMessage3() {
+            document.getElementById('message3').innerText = 'I will love you forever, Feowna. Thank you for being the most wonderful person in my life. I am so grateful to have you by my side, and I look forward to a lifetime of love and happiness together.';
+        }
+    </script>
+</body>
+</html>
